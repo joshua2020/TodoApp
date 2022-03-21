@@ -27,11 +27,6 @@ class NoteDetailsViewController: UIViewController {
     {
         super.viewDidLoad()
         setupNote()
-        
-        let tap = UIGestureRecognizer(target: self.view,
-                                      action: #selector(UIView.endEditing))
-        
-        view.addGestureRecognizer(tap)
     }
 
     
